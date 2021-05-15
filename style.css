@@ -1,0 +1,148 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color:#FFFFFF;
+    width:1440px;
+    margin: 0 auto;
+    font-family: Karla;
+    font-size: 15px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    height: 80px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 0;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-elements {
+    margin-right: 25px;
+}
+
+.nav-elements a:hover {
+    color: #4b484e;
+}
+
+a {
+    text-decoration: none;
+    color: #837D88;
+}
+
+.bordered {
+    color:#2C2830;
+    border: 1.5px solid #2C2830;
+    padding: 13px 28px;
+    max-width: 100%;
+}
+
+
+.bordered:hover  {
+    color: #837D88;
+    border: 1.5px solid #2C2830;
+    padding: 13px 28px;
+}
+
+.header-background {
+    margin: 0;
+    width: 1440px;
+    height: 600px;
+    content: "";
+    background-image: url("./Img/header-backgrund.svg");
+}
+.header-content {
+    width: 540px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+
+
+.header-moto {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    width: 540px;
+    height: 140px;
+
+}
+
+
+.we-different {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: 0 auto;
+    color: black;
+}
+.we-different h2 {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 64px;
+    /* identical to box height, or 89% */
+    letter-spacing: -1px;
+    width: 717px;
+    height: 64px;
+    color: #2C2830;
+    margin-bottom: 92px;
+}
+
+.offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 1100px;
+
+    padding: 0;
+}
+.offer-list-space {
+    margin-left: 30px;
+
+}
+.offer-paragraph {
+    width: 350px;
+    height: 75px;
+}
+.offer-heading {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2C2830;
+}
